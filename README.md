@@ -1,7 +1,6 @@
 # CMPE 202 Individual Project
 Student ID: 016650348
 
- CMPE 202 Individual Project created by GitHub Classroom
  
 #### 1. Describe what is the primary problem you try to solve? 
 Ans. The primary problem that I am trying to solve is to check whether a card is valid or not by checking the different types of credit cards i.e.,(Master card, Visa, American Express and Discover) and using the credit card number to identify the card issuer. To find the relevant objects based on card type.
@@ -187,27 +186,6 @@ Output successfully written to output.xml
 </ArrayList>
 ```
 
-## Validations
-
-### Validation that required number of arguments are passed
-
-```
-✗ java -cp girish-cmpe-202.jar com.girish.Main
-Invalid syntax. Usage: java com.girish.Main <input file path> <output file path>
-```
-
-### Validation that input and output file extensions are same
-
-```
-✗ java -cp girish-cmpe-202.jar com.girish.Main src/main/resources/input.csv output/output.xml
-Exception in thread "main" java.lang.RuntimeException: Input and output extensions should be the same
-```
-
-### Validation that input file path exists
-
-```
-✗ java -cp girish-cmpe-202.jar com.girish.Main input.csv output/output.csv
-Exception in thread "main" java.lang.RuntimeException: Input path does not exist
 ```
 
 

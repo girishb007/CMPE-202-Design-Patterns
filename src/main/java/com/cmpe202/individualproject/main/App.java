@@ -38,11 +38,13 @@ public class App {
         inputFile = args[0];
         outputFile = args[1];
 
-        // inputFile = "src/test/java/sampleFiles/input_file.x";
-         //outputFile = "src/test/java/sampleFiles/outputxml.csv";
 
         inputFileType = inputFile.substring(inputFile.indexOf("."));
         outputFileType = outputFile.substring(outputFile.indexOf("."));
+        
+        
+        // inputFile = "src/test/java/sampleFiles/input_file.x";
+         //outputFile = "src/test/java/sampleFiles/outputxml.csv";
 
         if (!inputFileType.equals(outputFileType)) {
             System.out.println("Input and Output extensions are not same");
