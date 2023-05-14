@@ -16,15 +16,15 @@ Finally, the introduction of the feature that allowed for the parsing of multipl
 #### 3. Describe what design pattern(s) you use (use plain text and diagrams)?
 Ans. To solve the primary and secondary problems, we used the following design patterns:
 
-### 1.Factory Method Pattern:
+##### 1.Factory Method Pattern:
 
 This pattern is suitable for our primary problem because we need to create an instance of the appropriate credit card class based on the credit card type.
 
-### 2. Strategy Pattern:
+##### 2. Strategy Pattern:
 
 This pattern is suitable for our secondary problem because we need to verify the credit card number to ensure that it is a possible account number.
 
-### 3. Iterator Pattern:
+##### 3. Iterator Pattern:
 
 The input files (csv , xml or json) contains a list of nodes that the system need to iterate the list so to do that we will be using iterator pattern, because it will provide us a way to access objects without being concerned about the underlying representation on of the objects.
 
