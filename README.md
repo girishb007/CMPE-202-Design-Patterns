@@ -1,5 +1,5 @@
 # CMPE 202 Individual Project
-# Student ID: 016650348
+Student ID: 016650348
 
  CMPE 202 Individual Project created by GitHub Classroom
  
