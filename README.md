@@ -9,9 +9,7 @@ Ans. The primary problem that I am trying to solve is to check whether a card is
 
 #### 2. Describe what are the secondary problems you try to solve (if there are any)?
 Ans. The first was the need to identify the credit card type based on the credit card number and verify that the credit card number was a possible account number.
-
 Another secondary problem was how to maintain extensibility for future credit card types that might be added later. It was important to ensure that the design of the system was flexible enough to accommodate new credit card types without requiring significant modifications to the existing code.
-
 Finally, the introduction of the feature that allowed for the parsing of multiple input files brought in a range of expectations that needed to be handled. The system needed to be able to handle different file formats, and the input files needed to be processed efficiently without compromising the accuracy of the credit card number verification process.
 
  
@@ -20,17 +18,11 @@ Ans. To solve the primary and secondary problems, we used the following design p
 
 ### 1.Factory Method Pattern:
 
-The Factory Method Pattern is a creational pattern that provides an interface for creating objects but allows subclasses to alter the type of objects that will be created. This pattern is suitable for our primary problem because we need to create an instance of the appropriate credit card class based on the credit card type.
-
-To implement the Factory Method Pattern, we can create an abstract CreditCardFactory class that provides an abstract method for creating CreditCard objects. We can then create concrete factories such as VisaCCFactory, MasterCCFactory, and AmExCCFactory that implement the CreditCardFactory interface and override the createCreditCard() method to create the appropriate CreditCard subclass.
+This pattern is suitable for our primary problem because we need to create an instance of the appropriate credit card class based on the credit card type.
 
 ### 2. Strategy Pattern:
 
-The Strategy Pattern is a behavioral pattern that defines a family of algorithms, encapsulates each one, and makes them interchangeable. This pattern is suitable for our secondary problem because we need to verify the credit card number to ensure that it is a possible account number.
-
-To implement the Strategy Pattern, we can create an interface called  Credit Card Number Valid onStrategy that provides a method for validating credit card numbers.
-We can then create concrete strategies such as VisaCCNumberValida, onStrategy, MasterCCNumberValidationStrategy, and AmExCCNumberValidation onStrategy that implement the CreditCardNumberValida onStrategy interface and override the validate() method to perform the appropriate credit card number validation on algorithm.
-
+This pattern is suitable for our secondary problem because we need to verify the credit card number to ensure that it is a possible account number.
 
 ### 3. Iterator Pattern:
 
