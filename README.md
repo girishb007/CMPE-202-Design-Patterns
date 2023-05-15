@@ -186,27 +186,6 @@ Output successfully written to output.xml
 </ArrayList>
 ```
 
-## Validations
-
-### Validation that required number of arguments are passed
-
-```
-✗ java -cp girish-cmpe-202.jar com.girish.Main
-Invalid syntax. Usage: java com.girish.Main <input file path> <output file path>
-```
-
-### Validation that input and output file extensions are same
-
-```
-✗ java -cp girish-cmpe-202.jar com.girish.Main src/main/resources/input.csv output/output.xml
-Exception in thread "main" java.lang.RuntimeException: Input and output extensions should be the same
-```
-
-### Validation that input file path exists
-
-```
-✗ java -cp girish-cmpe-202.jar com.girish.Main input.csv output/output.csv
-Exception in thread "main" java.lang.RuntimeException: Input path does not exist
 ```
 
 
