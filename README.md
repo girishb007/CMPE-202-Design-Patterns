@@ -1,5 +1,5 @@
 # CMPE 202 Individual Project
-Student ID: 016650348
+Student ID: 016650348 
 
  
 #### 1. Describe what is the primary problem you try to solve? 
