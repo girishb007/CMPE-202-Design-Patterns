@@ -1,7 +1,6 @@
 # CMPE 202 Individual Project
 Student ID: 016650348
 
- CMPE 202 Individual Project created by GitHub Classroom
  
 #### 1. Describe what is the primary problem you try to solve? 
 Ans. The primary problem that I am trying to solve is to check whether a card is valid or not by checking the different types of credit cards i.e.,(Master card, Visa, American Express and Discover) and using the credit card number to identify the card issuer. To find the relevant objects based on card type.
